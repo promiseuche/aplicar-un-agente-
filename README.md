@@ -2,7 +2,7 @@
 Copy the below repo into your personal repo
 Repo Link: https://github.com/promiseuche/aplicar-un-agente
 
-=======<br>
+
 Step 1:<br> 
 =======
 Hello GitHub Copilot agent mode
@@ -13,39 +13,39 @@ Let's ask Copilot agent mode to help us remember the command and create the bran
 [STEP 1 - PROMPT 1] <br>
 Hey copilot, how can I create and publish a new Git branch called build-octofit-app? <br>
 
-======= <br>
+
 Step 2:<br> 
 =======
 The initial application setup: Directory structure, Python requirements, and MongoDB
 
-[Step 2 - Activity 2] 
+[Step 2 - Activity 2]<br> 
 Prompt for GitHub Copilot in agent mode to start the creation of our application
 
-[STEP 2 - PROMPT 1] 
+[STEP 2 - PROMPT 1]<br> 
 Let's take the following step by step and generate instructions in this order and execute the commands.
 Use docs/mona-high-school-fitness-tracker.md as a guide for the project structure and requirements.
 
 1. Understand the story of creating the fitness application from the docs/octofit_story.md file.
 2. Create the initial directory structure for the octofit-tracker application octofit-tracker/backend, octofit-tracker/frontend.
-3. Setup the backend python virtual environment, octofit-tracker/backend/requirements.txt based on docs/mona-high-school-fitness-tracker.md, and install required packages.
+3. Setup the backend python virtual environment, octofit-tracker/backend/requirements.txt based on docs/mona-high-school-fitness-tracker.md, and install required packages.<br>
 
 Don't proceed with the next activity until all of these steps are completed.
 
-[Step 2 - Activity 2] 
+[Step 2 - Activity 2]<br> 
 Let's install MongoDB
 
-[STEP 2 - PROMPT 2] 
-Based on the example monafit tracker app in the docs/mona-high-school-fitness-tracker.md file and use octofit as the name for mergington's high schools app. > Let's install MongoDB.
+[STEP 2 - PROMPT 2]<br> 
+Based on the example monafit tracker app in the docs/mona-high-school-fitness-tracker.md file and use octofit as the name for mergington's high schools app. > Let's install MongoDB.<br>
 
 1. Install MongoDB and make sure the command is complete.
 
 Don't proceed with the next activity until all of these steps are completed.
 
 
-[Step 2 - Activity 3] 
+[Step 2 - Activity 3]<br> 
 Let's start and verify MongoDB is running
 
-[STEP 2 - PROMPT 3] 
+[STEP 2 - PROMPT 3]<br> 
 Based on the example monafit tracker app in the docs/mona-high-school-fitness-tracker.md file and use octofit as the name for mergington's high schools app. > Let's start and verify MongoDB is running.
 
 1. Start the MongoDB service.
@@ -54,24 +54,22 @@ Based on the example monafit tracker app in the docs/mona-high-school-fitness-tr
 Don't proceed with the next activity until all of these steps are completed.
 
 
-
-=======
 Step 3: 
 =======
-Initialize and create the octofit_db MongoDB database, Django project/app, update Django project/app files, and populate the MongoDB database  
-[Step 3 - Activity 1]
+Initialize and create the octofit_db MongoDB database, Django project/app, update Django project/app files, and populate the MongoDB database
+[Step 3 - Activity 1]<br>
 Setup the Python Django project/app
 
-[STEP 3 - PROMPT 1] 
+[STEP 3 - PROMPT 1]<br> 
 Based on the example monafit tracker app in the docs/mona-high-school-fitness-tracker.md file and use octofit as the name for mergington's high schools app,  > let's setup the Python Django project/app and run the server.
 1. The octofit-tracker/backend directory will store the django project and app with the name octofit-tracker.
 2. Setup the additional configuration for the django project/app with the name octofit-tracker.
 Don't proceed with the next activity until all of these steps are completed. 
 
-[Step 3 - Activity 2] 
+[Step 3 - Activity 2]<br> 
 Initialize and create the octofit_db MongoDB database 
 
-[STEP 3 - PROMPT 2] 
+[STEP 3 - PROMPT 2]<br> 
 Based on the example monafit tracker app in the docs/mona-high-school-fitness-tracker.md file and use octofit as the name for Merington's high school's app. Let's initialize the octofit_db database.
 
 1. Initialize the mongo octofit_db database.
@@ -81,13 +79,13 @@ Based on the example monafit tracker app in the docs/mona-high-school-fitness-tr
 4. Execute the command for me to create the database.
 5. List the collections in the octofit_db database.
 
-Don't proceed with the next activity until all of these steps are completed. 
+Don't proceed with the next activity until all of these steps are completed.<br> 
 
 
-[Step 3 - Activity 3] 
+[Step 3 - Activity 3]<br> 
 Update the Python Django project/app files 
 
-[STEP 3 - PROMPT 3] 
+[STEP 3 - PROMPT 3]<br> 
 Based on the example monafit tracker app in the docs/mona-high-school-fitness-tracker.md file and use octofit as the name for Merington's high school's app. Let's update the octofit-tracker/backend/octofit_tracker app files.
 
 1. Update the octofit-tracker/backend/octofit_tracker/settings.py file to include the MongoDB database connection.
@@ -106,19 +104,18 @@ Don't proceed with the next activity until all of these steps are completed.
 
 
 
-[Step 3 - Activity 4] 
+[Step 3 - Activity 4]<br> 
 Populate the octofit_db database with test data from Django project/app files 
 
-[Step 3 - PROMPT 4] 
+[Step 3 - PROMPT 4]<br> 
 Based on the example monafit tracker app in the docs/mona-high-school-fitness-tracker.md file and use octofit as the name for Merington's high school's app. Let's populate the octofit_db database with test data. Use the same data from docs/mona-high-school-fitness-tracker.md file.
 
 1. Create a test data file in the octofit-tracker/backend/octofit_tracker directory.
 2. Run makemigrations and migrate the database in a Python virtual environment.
 3. Populate the octofit_db database with test data for users, teams, activities, leaderboard, and workouts collections based on test data in docs/mona-high-school-fitness-tracker.md octofit-tracker/backend/octofit_tracker/management/commands/populate_db.py.
-4. Verify the test data is populated in the octofit_db database.
+4. Verify the test data is populated in the octofit_db database.<br>
 
 Don't proceed with the next activity until all of these steps are completed. 
 
-====
 END
 ====
