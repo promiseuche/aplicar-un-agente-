@@ -2,19 +2,19 @@
 Copy the below repo into your personal repo
 Repo Link: https://github.com/promiseuche/aplicar-un-agente
 
-=======
-Step 1: 
+=======<br>
+Step 1:<br> 
 =======
 Hello GitHub Copilot agent mode
 
-[Step 1 - Activity 1]
-Let's ask Copilot agent mode to help us remember the command and create the branch build-octofit-app and publishing it.
+[Step 1 - Activity 1]<br>
+Let's ask Copilot agent mode to help us remember the command and create the branch build-octofit-app and publishing it.<br>
 
-[STEP 1 - PROMPT 1] 
-Hey copilot, how can I create and publish a new Git branch called build-octofit-app?
+[STEP 1 - PROMPT 1] <br>
+Hey copilot, how can I create and publish a new Git branch called build-octofit-app? <br>
 
-=======
-Step 2: 
+======= <br>
+Step 2:<br> 
 =======
 The initial application setup: Directory structure, Python requirements, and MongoDB
 
