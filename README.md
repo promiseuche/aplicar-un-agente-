@@ -1,60 +1,124 @@
-# Build applications with GitHub Copilot agent mode
+# Instructions
+Copy the below repo into your personal repo
+Repo Link: https://github.com/promiseuche/aplicar-un-agente
 
-<!-- ![](https://github.com/promiseuche/aplicar-un-agente-/actions/workflows/0-start-course.yml/badge.svg?branch=main) -->
-<img src="https://github.com/user-attachments/assets/1b3ea5df-f18d-4ed8-9ae6-f96dc1861818" alt="octofit-tracker" width="300"/>
+=======
+Step 1: 
+=======
+Hello GitHub Copilot agent mode
 
-_Build an application with GitHub Copilot agent mode in less than an hour._
+[Step 1 - Activity 1]
+Let's ask Copilot agent mode to help us remember the command and create the branch build-octofit-app and publishing it.
 
-## Welcome
+[STEP 1 - PROMPT 1] 
+Hey copilot, how can I create and publish a new Git branch called build-octofit-app?
 
-People love how GitHub Copilot helps them write code faster and with fewer errors.
-But what if GitHub could create a full stack application for your job role based on requirements
-written in natural language?
-In this exercise, we will prompt GitHub Copilot agent mode to create us a complete application.
+=======
+Step 2: 
+=======
+The initial application setup: Directory structure, Python requirements, and MongoDB
 
-- **Who is this for**: Intermediate developers familiar with GitHub Copilot, basic GitHub, and basic web development
-- **What you'll learn**: We'll introduce GitHub Copilot agent mode and how to use it for application development.
-- **What you'll build**: You'll use GitHub Copilot agent mode to create a fitness application as the gym teacher of a high school.
-- **Prerequisites**: Skills Exercise: <a href="https://github.com/skills/getting-started-with-github-copilot">Getting Started with GitHub Copilot</a>.
-- **How long**: This course takes less than one hour to complete.
+[Step 2 - Activity 2] 
+Prompt for GitHub Copilot in agent mode to start the creation of our application
 
-In this exercise, you will:
+[STEP 2 - PROMPT 1] 
+Let's take the following step by step and generate instructions in this order and execute the commands.
+Use docs/mona-high-school-fitness-tracker.md as a guide for the project structure and requirements.
 
-1. Start up a preconfigured development environment for making a full stack application.
-2. Prompt in GitHub Copilot Chat and select the edit tab and select agent mode from the edit/agent drop-down.
-3. Try creating the application with GPT-4o.
-4. Try other LLM models to see other output.
+1. Understand the story of creating the fitness application from the docs/octofit_story.md file.
+2. Create the initial directory structure for the octofit-tracker application octofit-tracker/backend, octofit-tracker/frontend.
+3. Setup the backend python virtual environment, octofit-tracker/backend/requirements.txt based on docs/mona-high-school-fitness-tracker.md, and install required packages.
 
-### How to start this exercise
+Don't proceed with the next activity until all of these steps are completed.
 
-1. Right-click **Copy Exercise** and open the link in a new tab.
+[Step 2 - Activity 2] 
+Let's install MongoDB
 
-   <a id="copy-exercise">
-      <img src="https://img.shields.io/badge/📠_Copy_Exercise-AAA" height="25pt"/>
-   </a>
+[STEP 2 - PROMPT 2] 
+Based on the example monafit tracker app in the docs/mona-high-school-fitness-tracker.md file and use octofit as the name for mergington's high schools app. > Let's install MongoDB.
 
-2. In the new tab, most of the fields will automatically fill in for you.
+1. Install MongoDB and make sure the command is complete.
 
-   - For owner, choose your personal account or an organization to host the repository.
-   - We recommend creating a public repository, as private repositories will use [Actions minutes](https://docs.github.chttps://github.com/promiseuche/aplicar-un-agente-/billing/managing-billing-for-github-actions/about-billing-for-github-actions).
-   - Scroll down and click the **Create repository** button at the bottom of the form.
-
-3. After your new repository is created, wait about 20 seconds for the course to be prepared.
-
-   - The **Copy Exercise** button will deactivate, changing to gray.
-   - The **Start Exercise** button will activate, changing to green.
-
-4. Click **Start Exercise**. Follow the step-by-step instructions and feedback will be provided as you progress.
-
-   <a id="start-exercise" href="https://github.com/promiseuche/aplicar-un-agente-/issues/1">
-      <img src="https://img.shields.io/badge/🚀_Start_Exercise-008000" height="25pt"/>
-   </a>
+Don't proceed with the next activity until all of these steps are completed.
 
 
-> ❕ **Important:** The **Start Exercise** button will activate after copying the repository. You will probably need to refresh the page.
+[Step 2 - Activity 3] 
+Let's start and verify MongoDB is running
 
----
+[STEP 2 - PROMPT 3] 
+Based on the example monafit tracker app in the docs/mona-high-school-fitness-tracker.md file and use octofit as the name for mergington's high schools app. > Let's start and verify MongoDB is running.
 
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/introduction-to-github) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
+1. Start the MongoDB service.
+2. Verify the MongoDB service running.
 
-&copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+Don't proceed with the next activity until all of these steps are completed.
+
+
+
+=======
+Step 3: 
+=======
+Initialize and create the octofit_db MongoDB database, Django project/app, update Django project/app files, and populate the MongoDB database  
+[Step 3 - Activity 1]
+Setup the Python Django project/app
+
+[STEP 3 - PROMPT 1] 
+Based on the example monafit tracker app in the docs/mona-high-school-fitness-tracker.md file and use octofit as the name for mergington's high schools app,  > let's setup the Python Django project/app and run the server.
+1. The octofit-tracker/backend directory will store the django project and app with the name octofit-tracker.
+2. Setup the additional configuration for the django project/app with the name octofit-tracker.
+Don't proceed with the next activity until all of these steps are completed. 
+
+[Step 3 - Activity 2] 
+Initialize and create the octofit_db MongoDB database 
+
+[STEP 3 - PROMPT 2] 
+Based on the example monafit tracker app in the docs/mona-high-school-fitness-tracker.md file and use octofit as the name for Merington's high school's app. Let's initialize the octofit_db database.
+
+1. Initialize the mongo octofit_db database.
+2. Create a correct table structure for users, teams, activity, leaderboard, and workouts collections.
+3. Make sure there is a unique ID for the primary key for the user collection.
+  ex. db.users.createIndex({ "email": 1 }, { unique: true })
+4. Execute the command for me to create the database.
+5. List the collections in the octofit_db database.
+
+Don't proceed with the next activity until all of these steps are completed. 
+
+
+[Step 3 - Activity 3] 
+Update the Python Django project/app files 
+
+[STEP 3 - PROMPT 3] 
+Based on the example monafit tracker app in the docs/mona-high-school-fitness-tracker.md file and use octofit as the name for Merington's high school's app. Let's update the octofit-tracker/backend/octofit_tracker app files.
+
+1. Update the octofit-tracker/backend/octofit_tracker/settings.py file to include the MongoDB database connection.
+2. Update the octofit-tracker/backend/octofit_tracker/models.py file to include the models for users, teams, activity, leaderboard, and workouts collections.
+3. Update the octofit-tracker/backend/octofit_tracker/serializers.py file to include the serializers for users, teams, activity, leaderboard, and workouts collections.
+4. Update the octofit-tracker/backend/octofit_tracker/urls.py file to include the URLs for users, teams, activity, leaderboard, and workouts collections.
+5. Update the octofit-tracker/backend/octofit_tracker/views.py file to include the views for users, teams, activity, leaderboard, and workouts collections.
+6. Update the octofit-tracker/backend/octofit_tracker/tests.py file to include the tests for users, teams, activity, leaderboard, and workouts collections.
+7. Update the octofit-tracker/backend/octofit_tracker/admin.py file to include the admin for users, teams, activity, leaderboard, and workouts collections.
+8. Make sure api_root is in octofit-tracker/backend/octofit_tracker/urls.py
+9. Enable CORS in the octofit-tracker/backend/octofit_tracker/settings.py file to allow cross-origin requests from the frontend React app and allow all origins, methods, and headers.
+10. Allow all hosts in the settings.py file.
+11. Install CORS middleware components.
+
+Don't proceed with the next activity until all of these steps are completed.
+
+
+
+[Step 3 - Activity 4] 
+Populate the octofit_db database with test data from Django project/app files 
+
+[Step 3 - PROMPT 4] 
+Based on the example monafit tracker app in the docs/mona-high-school-fitness-tracker.md file and use octofit as the name for Merington's high school's app. Let's populate the octofit_db database with test data. Use the same data from docs/mona-high-school-fitness-tracker.md file.
+
+1. Create a test data file in the octofit-tracker/backend/octofit_tracker directory.
+2. Run makemigrations and migrate the database in a Python virtual environment.
+3. Populate the octofit_db database with test data for users, teams, activities, leaderboard, and workouts collections based on test data in docs/mona-high-school-fitness-tracker.md octofit-tracker/backend/octofit_tracker/management/commands/populate_db.py.
+4. Verify the test data is populated in the octofit_db database.
+
+Don't proceed with the next activity until all of these steps are completed. 
+
+====
+END
+====
