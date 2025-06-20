@@ -1,6 +1,16 @@
 # Instructions
-Mirror the below repo into your personal repository:<br>
-Link: https://github.com/promiseuche/aplicar-un-agente
+Mirror the below repo into your personal repository by following the steps below:<br>
+1. Create an empty repository in github.
+2. Clone this repository into your local system by running the below command:<br>
+`git clone https://github.com/promiseuche/aplicar-un-agente`<br>
+3. Mirror push the content of the repository into your already created repository as seen below:<br>
+`cd aplicar-un-agente`<br>
+`git push --mirror https://github.com/example-user/new-repository.git`<br>
+4. Delete the initial repository from your system:<br>
+`rm -rf aplicar-un-agente`<br>
+
+Note:<br>
+Just incase you were wondering what the repo name "aplicar-un-agente" means, it's a spanish word for applying agents and that is what we are here to do. <br>
 
 
 Step 1:<br> 
