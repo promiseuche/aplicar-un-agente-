@@ -1,7 +1,7 @@
 # Instructions
 Mirror the below repo into your personal repository by following the steps below:<br>
 1. Create an empty repository in github.
-2. Clone this repository into your local system by running the below command:<br>
+2. Clone the repository where we have the instructions to build the application into your local system by running the below command:<br>
 `git clone https://github.com/promiseuche/aplicar-un-agente`<br>
 3. Mirror push the content of the repository into your already created repository as seen below:<br>
 `cd aplicar-un-agente`<br>
