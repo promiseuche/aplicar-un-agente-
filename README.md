@@ -28,7 +28,7 @@ Step 2:<br>
 =======
 The initial application setup: Directory structure, Python requirements, and MongoDB
 
-[Step 2 - Activity 2]<br> 
+[Step 2 - Activity 1]<br> 
 Prompt for GitHub Copilot in agent mode to start the creation of our application
 
 [STEP 2 - PROMPT 1]<br> 
