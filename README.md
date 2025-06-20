@@ -1,6 +1,6 @@
 # Instructions
-Copy the below repo into your personal repo
-Repo Link: https://github.com/promiseuche/aplicar-un-agente
+Mirror the below repo into your personal repository:<br>
+Link: https://github.com/promiseuche/aplicar-un-agente
 
 
 Step 1:<br> 
